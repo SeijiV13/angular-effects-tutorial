@@ -1,0 +1,8 @@
+<!-- Effect subscribing to input binding -->
+<app-name-changer [username]="user" (usernameEmitter)="displayUser($event)"  (usernameEmitterHost)="displayUser($event)"></app-name-changer>
+
+<!-- <button (click)="changeUser()">Change User!</button>
+<button (click)="changeCredentials()"  >Change Credentials!</button>
+
+
+<app-life-cycle [message]="'this is a message test'" [user]="'Seiji'"></app-life-cycle> -->
